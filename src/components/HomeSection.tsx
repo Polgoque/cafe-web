@@ -47,10 +47,6 @@ return (
 );
 }
 
-
----
-
-
 // FILE: src/components/Navbar.tsx
 import Link from "next/link";
 
