@@ -12,7 +12,7 @@ export const defaultFilters: Filters = {
   sort: "popular",
 };
 
-import type { Product } from "../data/products";
+import type { Product } from "../data/product";
 
 export function applyFiltersAndSort(products: Product[], f: Filters) {
   let out = products.filter((p) => {

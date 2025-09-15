@@ -3,7 +3,7 @@ export type Product = {
   name: string;
   slug: string;
   price: number;
-  image?: string;
+  image: string;
   origin: string;
   process: "Lavado" | "Honey" | "Natural";
   roast: "Claro" | "Medio" | "Oscuro";
