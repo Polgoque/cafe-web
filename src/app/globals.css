@@ -1,0 +1,16 @@
+/* Tailwind v4 */
+@import "tailwindcss";
+
+/* Tu CSS global opcional debajo */
+:root {
+  --brand-brown: #4B2C20;
+  --brand-gold:  #C9A777;
+  --brand-beige: #EDE7E3;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

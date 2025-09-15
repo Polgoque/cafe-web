@@ -1,0 +1,9 @@
+/* Tailwind v4 */
+@import "tailwindcss";
+
+/* tu CSS global opcional debajo… */
+:root {
+  --brand-brown: #4B2C20;
+  --brand-gold:  #C9A777;
+  --brand-beige: #EDE7E3;
+}
